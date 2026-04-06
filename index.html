@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Khelo Bangladesh</title>
+
+<style>
+
+body{
+font-family:sans-serif;
+background:#f2f2f2;
+margin:0;
+}
+
+.header{
+background:#000;
+color:white;
+padding:15px;
+font-size:22px;
+font-weight:bold;
+}
+
+.card{
+background:white;
+margin:15px;
+padding:15px;
+border-radius:10px;
+box-shadow:0 0 5px rgba(0,0,0,0.1);
+}
+
+.app{
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.logo{
+width:60px;
+height:60px;
+border-radius:15px;
+}
+
+.download a{
+display:block;
+text-align:center;
+background:#4a6cf7;
+color:white;
+padding:12px;
+border-radius:6px;
+text-decoration:none;
+margin-top:10px;
+font-weight:bold;
+}
+
+.screenshots{
+padding:15px;
+}
+
+.slider{
+display:flex;
+overflow-x:auto;
+gap:10px;
+}
+
+.slider img{
+height:220px;
+border-radius:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+Khelo Bangladesh
+</div>
+
+<div class="card">
+
+<div class="app">
+
+<img src="https://i.postimg.cc/G3V9Wp0g/Screenshot-20260330-142818.png" class="logo">
+
+<div>
+<b>Khelo Bangladesh</b><br>
+Version 1.0 | 9 MB
+</div>
+
+</div>
+
+<div class="download">
+<a href="https://files.catbox.moe/temn7v.apk">Download APK</a>
+</div>
+
+</div>
+
+<div class="screenshots">
+
+<h3>Screenshots</h3>
+
+<div class="slider">
+
+<img src="https://i.postimg.cc/HkRgxr2z/Screenshot-20260406-151404.png">
+
+<img src="https://i.postimg.cc/CLMY6T56/Screenshot-20260406-151407.png">
+
+<img src="https://i.postimg.cc/j2cTdvgX/Screenshot-20260406-151412.png">
+
+</div>
+
+</div>
+
+</body>
+</html>
